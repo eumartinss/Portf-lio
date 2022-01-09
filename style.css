@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 60px;    
+    margin: auto;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;  
+    padding: 15px 0;         
+    
+}
+
+.navbar.sticky{
+    background-color: #1a1b22;
+    padding: 15px 0;
+    transition: 0.15s ease;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;        
+    font-weight: 500;
+}
+
+.navbar .logo a span{
+    color: #021661;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.navbar .menu li a{
+    color: #fff;
+}
+
+.navbar .menu li a:hover{
+    color: #021661;
+    transition: .1s ease;
+}
+
+/* home inicio */
+
+.home{
+    display: flex;
+    background: url(banner3.jpg) no-repeat center;
+    height: 100vh; 
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Poppins', sans-serif; 
+    background-color: black;
+}
+
+.home .max-width{
+    margin: auto 0 auto 0px;
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+.home .home-content .text-2{
+    font-size: 48px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span{
+    color: #021661;
+    font-weight: 500;
+}
